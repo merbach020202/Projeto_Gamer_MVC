@@ -6,10 +6,22 @@
 
 <h1>Tela de Equipes</h1>
 
+<form method="post" action="@Url.Action("Cadastrar")">
+
+    <label for="">Nome</label>
+    <input type="text" name="Nome">
+    
+    <label for="">Imagem</label>
+    <input type="file" name="Imagem">
+
+    <button type="submit">Cadastrar</button>
+
+</form>
+
 <table class="table table-striped table-responsive">
     <thead>
         <th>Id</th>
-        <th>Noem</th>
+        <th>Nome</th>
         <th>Imagem</th>
     </thead>
 
@@ -18,7 +30,7 @@
         @foreach (Equipe equipe in ViewBag.Equipe)
         {
             <tr>
-                <td>@equipe.IdEquipe</td>//usar o arroba para chamar a equipe
+                <td>@equipe.IdEquipe</td>
                 <td>@equipe.Nome</td>
                 <td>@equipe.Imagem</td>
             </tr>
