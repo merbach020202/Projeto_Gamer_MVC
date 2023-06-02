@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\44850641822\\Desktop\\SEMESTRE 1\\FrontEnd\\ProjetoGamer_MVC\\wwwroot\\img\\Equipes\\download.jpg",
+      "PackagePath": "staticwebassets\\img\\Equipes\\download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\44850641822\\Desktop\\SEMESTRE 1\\FrontEnd\\ProjetoGamer_MVC\\wwwroot\\img\\Equipes\\imagem de fundo para linkedin.jpg",
+      "PackagePath": "staticwebassets\\img\\Equipes\\imagem de fundo para linkedin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\44850641822\\Desktop\\SEMESTRE 1\\FrontEnd\\ProjetoGamer_MVC\\wwwroot\\img\\Equipes\\time A.jpg",
+      "PackagePath": "staticwebassets\\img\\Equipes\\time A.jpg"
+    },
+    {
+      "Id": "C:\\Users\\44850641822\\Desktop\\SEMESTRE 1\\FrontEnd\\ProjetoGamer_MVC\\wwwroot\\img\\Equipes\\time B.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\time B.png"
+    },
+    {
+      "Id": "C:\\Users\\44850641822\\Desktop\\SEMESTRE 1\\FrontEnd\\ProjetoGamer_MVC\\wwwroot\\img\\Equipes\\time C.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\time C.png"
+    },
+    {
       "Id": "C:\\Users\\44850641822\\Desktop\\SEMESTRE 1\\FrontEnd\\ProjetoGamer_MVC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
