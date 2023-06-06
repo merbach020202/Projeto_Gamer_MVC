@@ -34,13 +34,13 @@ namespace ProjetoGamer_MVC.Controllers
             novoJogador.Nome = form["Nome"].ToString();
             novoJogador.Email = form["Email"].ToString();
             novoJogador.Senha = form["Senha"].ToString();
-            novoJogador.IdEquipe = int.Parse(form["Nome"].ToString());
+            novoJogador.IdEquipe = int.Parse(form["IdEquipe"].ToString());
 
             c.Jogador.Add(novoJogador);
             //SEMPRE DEPOIS DE ADICIONAR ALGO EU PRECISO SALVAR AS MUDANÇAS
             c.SaveChanges();
 
-            return LocalRedirect("Jogador/Listar");
+            return LocalRedirect("~/Jogador/Listar");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

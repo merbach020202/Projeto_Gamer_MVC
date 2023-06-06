@@ -7,6 +7,50 @@
 
 <h1>Tela de jogadores</h1>
 
+<form method="post" action="@Url.Action("Cadastrar")">
+
+    <label for="">Nome</label>
+    <input type="text"name="Nome">
+
+    <label for="">Email</label>
+    <input type="email"name="Email">
+
+    <label for="">Senha</label>
+    <input type="passsword"name="Senha">
+    
+    <label for="">equipe</label>
+    <select name="idEquipe" id="idEquipe">
+        <option value="0">Selecione uma opção: </option>
+
+        @foreach (Equipe equipe in ViewBag.Equipe)
+        {
+            <option value="@equipe.IdEquipe">@equipe.Nome</option>
+        }
+    </select>
+
+    <button type="submit">Cadastrar</button>
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @* CRIAR A TABELA *@
 <table class="table table-striped table-responsive">
     <thead>
