@@ -10,14 +10,14 @@
 <form method="post" action="@Url.Action("Cadastrar")">
 
     <label for="">Nome</label>
-    <input type="text"name="Nome">
+    <input type="text" name="Nome">
 
     <label for="">Email</label>
-    <input type="email"name="Email">
+    <input type="email" name="Email">
 
     <label for="">Senha</label>
-    <input type="passsword"name="Senha">
-    
+    <input type="passsword" name="Senha">
+
     <label for="">equipe</label>
     <select name="idEquipe" id="idEquipe">
         <option value="0">Selecione uma opção: </option>
@@ -32,25 +32,6 @@
 
 </form>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @* CRIAR A TABELA *@
 <table class="table table-striped table-responsive">
     <thead>
@@ -58,22 +39,30 @@
         <th>Nome</th>
         <th>Email</th>
         <th>Equipe</th>
+        <th>Ações</th>
     </thead>
 
     <tbody>
-@* TRAZER OS DADOS ARMAZENADOS NA MOCHILA *@
-       @foreach (Jogador jogador in ViewBag.jogador)
+        @* TRAZER OS DADOS ARMAZENADOS NA MOCHILA *@
+        @foreach (Jogador jogador in ViewBag.jogador)
         {
             <tr>
-                <td>@jogador.IdJogador</td>
-                <td>@jogador.Nome</td>
+            <td>@jogador.IdJogador</td>
+        <td>@jogador.Nome</td>
                 <td>@jogador.Email</td>
                 <td>
                     <img src="/img/Equipes/@jogador.Equipe.Imagem" alt="Imagem da equipe @jogador.Equipe.Nome" width="50px">
                 </td>
+                <td>
+                    <a asp-area="" asp-asp-controller="jogador" asp-action="Excluir"
+                        asp-route-id="@jogador.IdJogador">Excluir</a>
+                </td>
+                <td>
+                    <a asp-area="" asp-asp-controller="jogador" asp-action="Excluir"
+                        asp-route-id="@jogador.IdJogador">Atualizar</a>
+                </td>
             </tr>
         }
-
     </tbody>
 
 
