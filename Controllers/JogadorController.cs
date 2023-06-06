@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using ProjetoGamer_MVC.Infra;
+using ProjetoGamer_MVC.Models;
 
 namespace ProjetoGamer_MVC.Controllers
 {
@@ -22,6 +23,24 @@ namespace ProjetoGamer_MVC.Controllers
             ViewBag.Equipe = c.Equipe.ToList();
 
             return View();
+        }
+
+
+        [Route("Cadastrar")]
+        public IActionResult Cadastrar(IFormCollection form)
+        {
+            Jogador novoJogador = new Jogador();
+
+            novoJogador.Nome = form["Nome"].ToString();
+            novoJogador.Email = form["Email"].ToString();
+            novoJogador.Senha = form["Senha"].ToString();
+            novoJogador.IdEquipe = int.Parse(form["Nome"].ToString());
+
+            c.Jogador.Add(novoJogador);
+            //SEMPRE DEPOIS DE ADICIONAR ALGO EU PRECISO SALVAR AS MUDANÇAS
+            c.SaveChanges();
+
+            return LocalRedirect("Jogador/Listar");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
