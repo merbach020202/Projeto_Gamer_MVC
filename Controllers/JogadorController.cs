@@ -43,6 +43,8 @@ namespace ProjetoGamer_MVC.Controllers
             return LocalRedirect("~/Jogador/Listar");
         }
 
+        
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
