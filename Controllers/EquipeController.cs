@@ -20,6 +20,8 @@ namespace ProjetoGamer_MVC.Controllers
         [Route("Listar")] //https://localhost//Equipe/Listar
         public IActionResult Index()
         {
+            ViewBag.UserName = HttpContext.Session.GetString("UserName");
+
             //variável que armazena as equipes listadas do banco
             ViewBag.Equipe = c.Equipe.ToList();
             //retorna a view de equipe (TELA)
@@ -80,6 +82,8 @@ namespace ProjetoGamer_MVC.Controllers
         [Route("Editar/{id}")]
         public IActionResult Editar(int id)
         {
+            ViewBag.UserName = HttpContext.Session.GetString("UserName");
+
             Equipe equipe = c.Equipe.First(x => x.IdEquipe == id);
 
             ViewBag.Equipe = equipe;
@@ -129,28 +133,6 @@ namespace ProjetoGamer_MVC.Controllers
             return LocalRedirect("~/Equipe/Listar");
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         //fim da lógica de upload
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -158,7 +140,6 @@ namespace ProjetoGamer_MVC.Controllers
         {
             return View("Error!");
         }
-
 
         [Route("Excluir/{id}")]
         public IActionResult Excluir(int id)
@@ -171,28 +152,5 @@ namespace ProjetoGamer_MVC.Controllers
 
             return LocalRedirect("~/Equipe/Listar");
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
