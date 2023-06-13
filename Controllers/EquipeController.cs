@@ -24,7 +24,7 @@ namespace ProjetoGamer_MVC.Controllers
 
             //variável que armazena as equipes listadas do banco
             ViewBag.Equipe = c.Equipe.ToList();
-            //retorna a view de equipe (TELA)
+            //retorna a view de equipe (TE  LA)
             return View();
         }
 
