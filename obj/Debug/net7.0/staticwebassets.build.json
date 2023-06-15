@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h0chBdt5N1jamXtz/IQtwpBcq4ab7zTtFaONp9bkRUw=",
+  "Hash": "bbXwJg6it6gh5rMdxGB47BvTwpvskVCf6Ke+9oIqfcA=",
   "Source": "ProjetoGamer_MVC",
   "BasePath": "_content/ProjetoGamer_MVC",
   "Mode": "Default",
@@ -1647,6 +1647,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\time D.png"
+    },
+    {
+      "Identity": "C:\\Users\\44850641822\\Desktop\\GamerMigration\\Gamer MVC\\ProjetoGamer_MVC\\wwwroot\\img\\Equipes\\time G.jpg",
+      "SourceId": "ProjetoGamer_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\44850641822\\Desktop\\GamerMigration\\Gamer MVC\\ProjetoGamer_MVC\\wwwroot\\",
+      "BasePath": "_content/ProjetoGamer_MVC",
+      "RelativePath": "img/Equipes/time G.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\time G.jpg"
     },
     {
       "Identity": "C:\\Users\\44850641822\\Desktop\\GamerMigration\\Gamer MVC\\ProjetoGamer_MVC\\wwwroot\\js\\site.js",
