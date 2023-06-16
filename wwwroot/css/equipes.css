@@ -3,18 +3,13 @@
 /* Main */
 
 main {
-    margin-top: 60px;
-    height: 1231px;
-    background-image: url(../images/background-equipes-mobile.png);
-    background-size: contain;
+
+    background-image: url(../images/background-equipes.png);
+    background-size: cover;
     background-position: top;
+  
+
 }
-
-
-
-
-
-
 
 /* FORMULÁRIO DE CADASTRO DE EQUIPES */
 main .cadastro-equipes {
@@ -66,6 +61,7 @@ main .cadastro-equipes .frm-cad-equipe {
 main .cadastro-equipes .frm-cad-equipe .cadequipe-titulo {
     margin-bottom: 40px;
 }
+
 main .cadastro-equipes .frm-cad-equipe .cadequipe-titulo h1 {
     font-family: TitilliumWeb-Black, sans-serif;
     font-size: 24px;
@@ -110,9 +106,10 @@ main .cadastro-equipes .frm-cad-equipe .campo-entrada {
 
 /* File Field */
 
-main .cadastro-equipes .frm-cad-equipe .foto input { 
+main .cadastro-equipes .frm-cad-equipe .foto input {
     display: none;
 }
+
 main .cadastro-equipes .frm-cad-equipe .foto {
     display: flex;
     align-items: center;
@@ -120,6 +117,7 @@ main .cadastro-equipes .frm-cad-equipe .foto {
     font-size: 10px;
     width: 100%;
 }
+
 main .cadastro-equipes .frm-cad-equipe .foto::before {
     display: flex;
     justify-content: center;
@@ -259,6 +257,7 @@ main .cadastro-equipes table td img.yellow-trash {
         height: 40px;
         font-size: 16px;
     }
+
     main .cadastro-equipes .frm-cad-equipe button {
         width: 243px;
     }

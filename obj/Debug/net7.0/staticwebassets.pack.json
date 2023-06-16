@@ -293,8 +293,8 @@
       "PackagePath": "staticwebassets\\images\\Game-FIFA.png"
     },
     {
-      "Id": "C:\\Users\\44850641822\\Desktop\\GamerMigration\\Gamer MVC\\ProjetoGamer_MVC\\wwwroot\\images\\background-equipes-mobile.png",
-      "PackagePath": "staticwebassets\\images\\background-equipes-mobile.png"
+      "Id": "C:\\Users\\44850641822\\Desktop\\GamerMigration\\Gamer MVC\\ProjetoGamer_MVC\\wwwroot\\images\\background-equipes.png",
+      "PackagePath": "staticwebassets\\images\\background-equipes.png"
     },
     {
       "Id": "C:\\Users\\44850641822\\Desktop\\GamerMigration\\Gamer MVC\\ProjetoGamer_MVC\\wwwroot\\images\\background-jogadores.png",

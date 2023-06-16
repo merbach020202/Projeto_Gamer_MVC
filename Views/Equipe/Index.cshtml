@@ -18,6 +18,7 @@
             </a>
         }
         else
+        @* Logado *@
         {
             <form class="frm-cad-equipe" method="post" action="@Url.Action("Cadastrar")" enctype="multipart/form-data">
                 <div class="cadequipe-titulo">
@@ -68,7 +69,9 @@
                                     asp-route-id="@equipe.IdEquipe"><img class="yellow-trash" src="~/assets/trash.png" alt=""></a>
 
                                 <a asp-area="" asp-controller="Equipe" asp-action="Editar"
-                                    asp-route-id="@equipe.IdEquipe">Editar</a>
+                                    asp-route-id="@equipe.IdEquipe">
+                                    Editar
+                                    </a>
                             </td>
                         </tr>
                     }

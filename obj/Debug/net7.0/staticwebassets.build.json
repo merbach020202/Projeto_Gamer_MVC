@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bbXwJg6it6gh5rMdxGB47BvTwpvskVCf6Ke+9oIqfcA=",
+  "Hash": "RJA0SoK7f3AT6me7lEAn5AC7fP961yUuS19o17LiL88=",
   "Source": "ProjetoGamer_MVC",
   "BasePath": "_content/ProjetoGamer_MVC",
   "Mode": "Default",
@@ -1173,12 +1173,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\44850641822\\Desktop\\GamerMigration\\Gamer MVC\\ProjetoGamer_MVC\\wwwroot\\images\\background-equipes-mobile.png",
+      "Identity": "C:\\Users\\44850641822\\Desktop\\GamerMigration\\Gamer MVC\\ProjetoGamer_MVC\\wwwroot\\images\\background-equipes.png",
       "SourceId": "ProjetoGamer_MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\44850641822\\Desktop\\GamerMigration\\Gamer MVC\\ProjetoGamer_MVC\\wwwroot\\",
       "BasePath": "_content/ProjetoGamer_MVC",
-      "RelativePath": "images/background-equipes-mobile.png",
+      "RelativePath": "images/background-equipes.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1187,7 +1187,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\background-equipes-mobile.png"
+      "OriginalItemSpec": "wwwroot\\images\\background-equipes.png"
     },
     {
       "Identity": "C:\\Users\\44850641822\\Desktop\\GamerMigration\\Gamer MVC\\ProjetoGamer_MVC\\wwwroot\\images\\background-jogadores.png",
