@@ -11,6 +11,6 @@ namespace ProjetoGamer_MVC.Models
 
         //REFERENCIA QUE A CLASSE EQUIPE VAI TER ACESSO 
         //A COLLECTION "JOGADOR"
-        public ICollection<Jogador> Jogador { get; set; }
+        public ICollection<Jogador> Jogador { get; set; } //Acesso a coleção de jogadores
     }
 }

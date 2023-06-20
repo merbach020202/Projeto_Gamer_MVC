@@ -29,7 +29,7 @@ namespace ProjetoGamer_MVC.Infra
                 //User Id = "nome do seu usuario de login"
                 //pwd = "senha do seu usuario"
 
-                optionsBuilder.UseSqlServer("Data Source = NOTE17-S14; Initial catalog = gamerManha; User Id = sa; pwd =Senai@134; TrustServerCertificate = true");
+                optionsBuilder.UseSqlServer("Data Source = NOTE17-S14; Initial catalog = gamerManha; User Id = sa; password = Senai@134; TrustServerCertificate = true");
             }
         }
         //referências de classes e tabelas
